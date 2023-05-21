@@ -3,7 +3,8 @@ Steps:
 
 1. idlj -fall Calc.idl
 2. javac *.java WssCalculator/*.java
-   or
+
+   OR
   - javac CalcServer.java WssCalculator/*.java
   - javac CalcClient.java WssCalculator/*.java
 3. orbd -ORBInitialPort 1050 orbd -ORBInitialHost localhost
