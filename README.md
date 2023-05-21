@@ -1,4 +1,6 @@
 # DSPractical2
+Steps:
+
 1. idlj -fall Calc.idl
 2. javac *.java WssCalculator/*.java
             or
