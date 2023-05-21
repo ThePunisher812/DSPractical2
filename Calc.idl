@@ -1,0 +1,6 @@
+module WssCalculator{
+	interface Calc{
+		long calculate(in long operator,in long num1,in long num2);
+		oneway void shutdown();
+	};
+};
